@@ -11,6 +11,7 @@ cache:
 script:
   - yarn test
   - yarn build
+before_deploy: cp .cpanel.yml ./build/.cpanel.yml
 deploy:
   provider: pages
   skip_cleanup: true
