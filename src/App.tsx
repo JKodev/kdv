@@ -3,7 +3,7 @@ import "./App.less";
 import MainWrapper from "./templates/wrappers/MainWrapper";
 
 const App: React.FC = () => {
-	return <MainWrapper>Hola mundo test</MainWrapper>;
+	return <MainWrapper>Hello World!</MainWrapper>;
 };
 
 export default App;
