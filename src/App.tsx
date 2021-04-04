@@ -1,13 +1,9 @@
-import React from 'react';
-import './App.less';
+import React from "react";
+import "./App.less";
 import MainWrapper from "./templates/wrappers/MainWrapper";
 
-function App() {
-  return (
-    <MainWrapper>
-      Hola mundo
-    </MainWrapper>
-  );
-}
+const App: React.FC = () => {
+	return <MainWrapper>Hola mundo test</MainWrapper>;
+};
 
 export default App;
