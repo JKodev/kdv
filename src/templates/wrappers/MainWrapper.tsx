@@ -2,7 +2,9 @@ import React from "react";
 import { Layout } from "antd";
 import MainMenu from "../../organisms/MainMenu";
 
-const MainWrapper: React.FC = ({ children }) => {
+const MainWrapper: React.FC = (props) => {
+	// eslint-disable-next-line react/prop-types
+	const { children } = props;
 	return (
 		<Layout style={{ minHeight: "100vh" }}>
 			<Layout.Sider collapsible>
