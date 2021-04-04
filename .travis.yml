@@ -15,9 +15,9 @@ deploy:
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
-    local_dir: build
-    on:
-      branch: master
+  local_dir: build
+  on:
+    branch: master
 #before_install:
 #- openssl aes-256-cbc -K $encrypted_0ddd2445e49f_key -iv $encrypted_0ddd2445e49f_iv
 #  -in travis_rsa.enc -out travis_rsa -d
